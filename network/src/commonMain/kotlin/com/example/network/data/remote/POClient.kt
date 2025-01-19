@@ -1,7 +1,7 @@
-package org.company.postoffice.data.remote
+package com.example.network.data.remote
 
-import org.company.postoffice.domain.model.PostOfficeResponse
-import org.company.postoffice.utils.Constants
+import com.example.network.domain.model.PostOfficeResponse
+import com.example.network.utils.Constants
 import io.ktor.client.HttpClient
 import io.ktor.client.call.body
 import io.ktor.client.request.get

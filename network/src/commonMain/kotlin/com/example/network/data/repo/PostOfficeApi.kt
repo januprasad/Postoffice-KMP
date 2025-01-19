@@ -1,6 +1,6 @@
-package org.company.postoffice.data.repo
+package com.example.network.data.repo
 
-import org.company.postoffice.domain.model.PostOfficeResponse
+import com.example.network.domain.model.PostOfficeResponse
 
 interface PostOfficeApi {
     suspend fun getPostOffices(pincode: String): List<PostOfficeResponse>

@@ -1,4 +1,4 @@
-package org.company.postoffice.domain.model
+package com.example.network.domain.model
 
 import kotlinx.serialization.Serializable
 

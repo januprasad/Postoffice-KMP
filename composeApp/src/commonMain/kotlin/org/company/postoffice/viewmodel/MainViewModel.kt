@@ -2,9 +2,9 @@ package org.company.postoffice.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import org.company.postoffice.domain.model.PostOfficeResponse
-import org.company.postoffice.domain.repository.Repository
-import org.company.postoffice.domain.usecase.ResultState
+import com.example.network.domain.model.PostOfficeResponse
+import com.example.network.domain.repository.Repository
+import com.example.network.domain.usecase.ResultState
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow

@@ -42,6 +42,7 @@ kotlin {
             implementation(libs.koin.annotations)
         }
         commonMain.dependencies {
+            api(project(":network"))
             implementation(compose.runtime)
             implementation(compose.foundation)
             implementation(compose.material)
@@ -95,6 +96,7 @@ android {
 }
 
 dependencies {
+    implementation(project(":network"))
     debugImplementation(compose.uiTooling)
 }
 

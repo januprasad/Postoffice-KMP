@@ -1,4 +1,4 @@
-package org.company.postoffice.domain.usecase
+package com.example.network.domain.usecase
 
 sealed class ResultState<out T> {
     object LOADING: ResultState<Nothing>()
